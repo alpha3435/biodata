@@ -1,0 +1,30 @@
+body{
+    background-image: url("pic.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: rgb(97, 30, 90);
+}
+.image-container 
+    {
+        display: flex;
+        flex-direction:column;  /* Arrange items vertically */
+        justify-content:top;/* Align items to the bottom */
+        align-items:center ;      /* Center items horizontally */
+        width: 100%;
+        height: 100vh;
+    }
+.image-container h5 
+    {
+        margin: 3px 0; 
+        color: rgb(53, 53, 146);
+        text-shadow: 0 0 2px rgb(226, 226, 235), 0 0 2px rgb(214, 214, 228), 0 0 2px rgb(227, 227, 238);
+    }
+.image-container h3 
+    {
+        margin: 3px 0; 
+        color: rgb(56, 7, 71);
+        text-shadow: 0 0 2px rgb(205, 156, 234), 0 0 2px rgb(192, 200, 180), 0 0 2px rgb(208, 227, 226);
+    }
+    
+    
